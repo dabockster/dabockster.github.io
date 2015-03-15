@@ -1,2 +1,3 @@
-# dabockster.github.io
-Personal site
+dabockster.github.io
+====================
+Personal site of Steven Bock
