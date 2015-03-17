@@ -1,4 +1,28 @@
-particlesJS('particles-js', {
+/*
+  Calculates a ratio to be used in the particle counts, distances, etc.
+  Borrowed from UCLA's LAHacks 2015 site
+*/
+
+var particleRatio = Math.sqrt($(window).width() * $(window).height()) / 1120.0;
+loadParticles(ratio);
+
+
+/*
+  Enable Particles.js
+*/
+function loadParticles(ratio){
+  /* 
+    Vars for easy adjustment
+    This idea was also borrowed from UCLA
+  */
+  var MAX_PARTICLES      = 150;
+  var MAX_DISTANCE       = 100;
+  var MAX_MOUSE_DISTANCE = 300;
+  var MAX_SIZE           = 3;
+  var MAX_SPEED          = 3;
+
+  /* Particles function */
+  particlesJS('particles-js', {
   particles: {
     color: '#21d0f5',
     color_random: false,
@@ -7,17 +31,17 @@ particlesJS('particles-js', {
       opacity: 1,
       anim: {
         enable: false,
-        speed: 1.5,
+        speed: Math.floor(ratio * MAX_SPEED),
         opacity_min: 0,
         sync: false
       }
     },
-    size: 4,
+    size: Math.floor(ratio * MAX_SIZE),
     size_random: true,
-    nb: 150,
+    nb: Math.floor(ratio * MAX_PARTICLES),
     line_linked: {
       enable_auto: true,
-      distance: 100,
+      distance: Math.floor(ratio * MAX_DISTANCE),
       color: '#21d0f5',
       opacity: 1,
       width: 1,
@@ -35,7 +59,7 @@ particlesJS('particles-js', {
   interactivity: {
     enable: true,
     mouse: {
-      distance: 300
+      distance: Math.floor(ratio * MAX_MOUSE_DISTANCE)
     },
     detect_on: 'canvas', // "canvas" or "window"
     mode: 'grab', // "grab" of false
@@ -46,7 +70,7 @@ particlesJS('particles-js', {
       onclick: {
         enable: true,
         mode: 'push', // "push" or "remove"
-        nb: 4
+        nb: Math.floor(ratio * MAX_SIZE)
       },
       onresize: {
         enable: true,
@@ -59,3 +83,4 @@ particlesJS('particles-js', {
   /* Retina Display Support */
   retina_detect: true
 });
+}
