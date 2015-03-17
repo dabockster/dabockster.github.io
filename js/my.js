@@ -20,11 +20,12 @@ function loadParticles(ratio){
   var MAX_MOUSE_DISTANCE = 300;
   var MAX_SIZE           = 5;
   var MAX_SPEED          = 3;
+  var PARTICLE_COLOR = '21d0f5';
 
   /* Particles function */
   particlesJS('particles-js', {
   particles: {
-    color: '#21d0f5',
+    color: PARTICLE_COLOR,
     color_random: false,
     shape: 'circle', // "circle", "edge" or "triangle"
     opacity: {
@@ -42,7 +43,7 @@ function loadParticles(ratio){
     line_linked: {
       enable_auto: true,
       distance: Math.floor(ratio * MAX_DISTANCE),
-      color: '#21d0f5',
+      color: PARTICLE_COLOR,
       opacity: 1,
       width: 1,
       condensed_mode: {
