@@ -30,7 +30,7 @@ function loadParticles(ratio){
     opacity: {
       opacity: 1,
       anim: {
-        enable: false,
+        enable: true,
         speed: Math.floor(ratio * MAX_SPEED),
         opacity_min: 0,
         sync: false
@@ -76,7 +76,7 @@ function loadParticles(ratio){
         enable: true,
         mode: 'out', // "out" or "bounce"
         density_auto: false,
-        density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+        density_area: 100 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
       }
     }
   },
