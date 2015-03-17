@@ -4,7 +4,7 @@
 */
 
 var particleRatio = Math.sqrt($(window).width() * $(window).height()) / 1120.0;
-loadParticles(ratio);
+loadParticles(particleRatio);
 
 
 /*
@@ -82,5 +82,5 @@ function loadParticles(ratio){
   },
   /* Retina Display Support */
   retina_detect: true
-});
+  });
 }
