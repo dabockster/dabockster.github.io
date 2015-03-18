@@ -16,6 +16,7 @@ body, html {
 	background: #eee;
 	color: #111;
 	width: 100%;
+	background-size: 100%;
 }
 
 .transparent
