@@ -15,6 +15,9 @@ body, html {
 .aboutMe{
 	background: #eee;
 	color: #111;
+}
+
+.aboutMe .container{
 	background-size: 50%;
 }
 
