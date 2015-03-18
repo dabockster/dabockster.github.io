@@ -12,16 +12,16 @@ body, html {
 	color: #ffffff;
 }
 
-.aboutMe{
+.content{
 	background: #eee;
-	color: #111;
+	text-align: center;
 	width: 90%;
 	background-size: 100%;
 	margin: 0 auto;
 }
 
-.aboutme h1{
-	text-align: center;
+.aboutMe{
+	color: #111;
 }
 
 .fluid-container .header{
