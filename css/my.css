@@ -12,14 +12,12 @@ body, html {
 	color: #ffffff;
 }
 
-.fluid-container .aboutMe{
+.aboutMe{
 	background: #eee;
 	color: #111;
-	width: 100%;
+	width: 50%;
 	background-size: 100%;
 }
-
-.transparent
 
 .aboutme h1{
 	text-align: center;
@@ -27,9 +25,13 @@ body, html {
 
 .fluid-container .header{
 	width: 50%;
+}
+
+.fluid-container{
 	padding-bottom: 100px;
 	padding-top: 100px;
 }
+
 
 .container{
 	width: 90%;
