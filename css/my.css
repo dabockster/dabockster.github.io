@@ -12,10 +12,10 @@ body, html {
 	color: #ffffff;
 }
 
-.fluid-container.aboutMe{
+.fluid-container .aboutMe{
 	background: #eee;
 	color: #111;
-	background-size: 50%;
+	background-size: 100%;
 }
 
 .transparent
@@ -24,7 +24,7 @@ body, html {
 	text-align: center;
 }
 
-.fluid-container{
+.fluid-container .header{
 	width: 50%;
 	padding-bottom: 100px;
 	padding-top: 100px;
