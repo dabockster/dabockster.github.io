@@ -15,7 +15,7 @@ body, html {
 .fluid-container .aboutMe{
 	background: #eee;
 	color: #111;
-	background-size: 100%;
+	width: 100%;
 }
 
 .transparent
