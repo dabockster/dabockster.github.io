@@ -15,8 +15,8 @@ function loadParticles(ratio){
     Vars for easy adjustment
     This idea was also borrowed from UCLA
   */
-  var MAX_PARTICLES      = 500;
-  var MAX_DISTANCE       = 100;
+  var MAX_PARTICLES      = 300;
+  var MAX_DISTANCE       = 75;
   var MAX_MOUSE_DISTANCE = 300;
   var MAX_SIZE           = 5;
   var MAX_SPEED          = 7;

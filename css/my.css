@@ -33,6 +33,10 @@ body, html {
 	font-size: 50px;
 }
 
+.aboutMe p{
+	font-size: 32px;
+}
+
 hr{
 	margin-top: 25px;
 	margin-bottom: 25px;
