@@ -24,6 +24,22 @@ body, html {
 	max-height: 30%;
 }
 
+.aboutMe{
+	text-align: center;
+	color: #ffffff;
+}
+
+.aboutMe h1{
+	font-size: 50px;
+}
+
+hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #ffffff;
+}
+
 .content{
 	background-color: rgba(0,0,0,.4);
 	text-align: center;
