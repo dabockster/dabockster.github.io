@@ -19,7 +19,7 @@ function loadParticles(ratio){
   var MAX_DISTANCE       = 100;
   var MAX_MOUSE_DISTANCE = 300;
   var MAX_SIZE           = 5;
-  var MAX_SPEED          = 3;
+  var MAX_SPEED          = 7;
   var PARTICLE_COLOR = '21d0f5';
 
   /* Particles function */
