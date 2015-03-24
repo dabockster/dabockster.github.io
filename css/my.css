@@ -29,6 +29,8 @@ body, html {
 	color: #ffffff;
 }
 
+
+
 .aboutMe h1{
 	text-align: left;
 	font-size: 50px;
@@ -37,6 +39,17 @@ body, html {
 
 .aboutMe p{
 	font-size: 24px;
+}
+
+.projects{
+	text-align: center;
+	color: #ffffff;
+}
+
+.projects h1{
+	text-align: left;
+	font-size: 50px;
+	padding-left: 18px;
 }
 
 hr{
