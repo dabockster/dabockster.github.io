@@ -37,7 +37,8 @@ body, html {
 
 .aboutMe p{
 	font-size: 24px;
-	max-width: 30%;
+	max-width: 75%;
+	text-align: center;
 }
 
 .projects{
