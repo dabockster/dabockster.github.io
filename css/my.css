@@ -53,7 +53,12 @@ body, html {
 }
 
 .project{
-	padding: 10px;
+	padding-left: 8%;
+}
+
+.project img{
+	max-width: 75%;
+	max-height: 75%
 }
 
 hr{
