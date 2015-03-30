@@ -53,7 +53,12 @@ body, html {
 }
 
 .project{
+	border-style: solid;
+	border-color: #21d0f5;
+	border-radius: 25%;
 	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 5%;
 }
 
 .project img{
@@ -61,14 +66,22 @@ body, html {
 	max-height: 75%
 }
 
-.project .description{
+.project .projectName{
 	font-size: 24px;
 	padding-top: 15px;
+}
+
+.project .description{
+	font-size: 24px;
 }
 
 .project hr{
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.project hr, p{
+	font-size: 24px;
 }
 
 hr{
