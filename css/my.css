@@ -52,7 +52,9 @@ body, html {
 	padding-left: 2%;
 }
 
-
+.project{
+	padding: 10px;
+}
 
 hr{
 	margin-top: 25px;
