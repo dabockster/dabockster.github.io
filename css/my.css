@@ -61,6 +61,10 @@ body, html {
 	max-height: 75%
 }
 
+.project p{
+	font-size: 18px;
+}
+
 hr{
 	margin-top: 25px;
 	margin-bottom: 25px;
