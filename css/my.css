@@ -41,12 +41,12 @@ body, html {
 	padding-right: 2%;
 }
 
-.projects{
+.projectsList{
 	text-align: center;
 	color: #ffffff;
 }
 
-.projects h1{
+.projectsList h1{
 	text-align: left;
 	font-size: 50px;
 	padding-left: 2%;
