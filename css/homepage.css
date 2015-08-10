@@ -1,5 +1,4 @@
-html, body {
-	height: 100%;
+html{
 	background: url(../img/pikeplace.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -8,6 +7,6 @@ html, body {
   	transform-style: preserve-3d;
 }
 
-.content{
-	background-color:rgba(255,0,0,0.5);
+body{
+	background-color:rgba(0,0,0,0);
 }
