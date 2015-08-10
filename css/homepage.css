@@ -1,9 +1,10 @@
-html {
+html, body {
 	background: url(../img/pikeplace.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	transform-style: preserve-3d;
 }
 
 body{
