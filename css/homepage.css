@@ -4,9 +4,9 @@ html{
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	transform-style: preserve-3d;
+  	background-color: rgba(0, 48, 96, 0.5);
 }
 
 body{
-	background-color:rgba(0,0,0,0);
+
 }
