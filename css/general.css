@@ -3,7 +3,7 @@ html{
 	transform-style: preserve-3d;
 }
 
-.content{
-	color: white;
+#wrapper, #footer{
+	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 }

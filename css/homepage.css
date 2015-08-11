@@ -16,7 +16,7 @@ body{
     z-index: -1;
 }
 
-.content{
+#wrapper{
 	text-align: center;
 	position: fixed;
   	top: 50%;
@@ -34,18 +34,37 @@ body{
     max-height: 200px;
 }
 
-.content, h1{
+h1{
 	font-size: 50px;
 }
 
-.content, p{
-	font-size: 18px;
+p{
+	font-size: 19px;
 }
 
 a {
-	color: white;
+	color: #FFFFFF;
 }
 
-a:hover{
-	color: white;
+a:hover {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 2rem;
+  	text-align: center;
+}
+
+i {
+	margin-left: 20px;
+	margin-right: 20px;
 }
