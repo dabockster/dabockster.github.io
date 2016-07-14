@@ -6,7 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   color: white;
 }
 
@@ -20,20 +20,22 @@
 
 /* general body settings */
 body{
-  background: #6699CC no-repeat;
-  background-size: cover;
-
   /* navbar settings - set top padding here */
   ul {
     list-style-type: none;
-    padding: .2em 0 0 0;
+    margin: 0;
+    padding: .5em;
+    overflow: hidden;
 
     /* list item settings - set padding between items here */
     li {
-      display: inline;
-      padding: 0 0 0 .5em;
-
+      float: left;
+      font-size: 1.2em;
       /* link settings */
+      a{
+        padding: .75em;
+        text-align: center;
+      }
       a,
       :link{
         text-decoration: none;
@@ -41,6 +43,14 @@ body{
       :hover{
         text-decoration: none;
       }
+    }
+
+    /* underline the current page that the user is on */
+    .currentPage{
+      width: 75%;
+      margin-top: .2em;
+      margin-left: .5em;
+      border-bottom: 1px solid #FFFFFF;
     }
   }
 }
