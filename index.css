@@ -1,0 +1,46 @@
+/*
+  NOTE: This CSS was generated using LESS.
+*/
+/* sets margins, paddings, and font styling for entire page */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+/* center class to center something on the page */
+.center {
+  margin: auto;
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+/* general body settings */
+body {
+  background: #6699CC no-repeat;
+  background-size: cover;
+  /* navbar settings - set top padding here */
+}
+body ul {
+  list-style-type: none;
+  padding: .2em 0 0 0;
+  /* list item settings - set padding between items here */
+}
+body ul li {
+  display: inline;
+  padding: 0 0 0 .5em;
+  /* link settings */
+}
+body ul li a,
+body ul li :link {
+  text-decoration: none;
+}
+body ul li :hover {
+  text-decoration: none;
+}
+h1 {
+  margin: auto;
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
