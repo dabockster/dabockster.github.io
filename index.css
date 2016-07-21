@@ -43,7 +43,7 @@ body ul li :link {
 body ul li :hover {
   text-decoration: none;
 }
-body ul .currentPage {
+body ul .current-page {
   width: 75%;
   margin-top: .2em;
   margin-left: .5em;
@@ -53,10 +53,18 @@ body {
   background: #6699CC no-repeat;
   background-size: cover;
 }
-.centerPage {
+.center-page {
   margin: auto;
   width: 50%;
   position: relative;
   text-align: center;
   padding-top: 20%;
+  font-size: 1.5em;
+}
+.center-page .social-icons {
+  padding-bottom: 0.25em;
+  font-size: 2.5em;
+}
+.center-page .social-icons i {
+  padding-right: 0.2em;
 }
