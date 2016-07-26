@@ -11,7 +11,7 @@
 /* Center class */
 .center {
   margin: auto;
-  width: 50%;
+  width: 60%;
   position: relative;
   text-align: center;
 }
@@ -56,12 +56,19 @@ body {
 }
 .center-page {
   margin: auto;
-  width: 50%;
+  width: 60%;
   position: relative;
   text-align: center;
   /* page specific formatting */
-  margin-top: 20%;
+  margin-top: 3%;
   font-size: 1.5em;
+  /* self portrait styling */
+}
+.center-page .selfie {
+  max-width: 100%;
+  max-height: 325px;
+  margin-bottom: -2.5%;
+  padding-left: .4em;
 }
 .center-page .social-icons {
   margin-bottom: 0.25em;
