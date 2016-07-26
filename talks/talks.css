@@ -51,23 +51,6 @@ body ul .current-page {
   border-bottom: 1px solid #FFFFFF;
 }
 body {
-  background: #6699CC no-repeat;
+  background: #A23E48 no-repeat;
   background-size: cover;
-}
-.center-page {
-  margin: auto;
-  width: 50%;
-  position: relative;
-  text-align: center;
-  /* page specific formatting */
-  margin-top: 20%;
-  font-size: 1.5em;
-}
-.center-page .social-icons {
-  margin-bottom: 0.25em;
-  margin-top: -0.25em;
-  font-size: 2.5em;
-}
-.center-page .social-icons i {
-  padding-right: 0.2em;
 }
