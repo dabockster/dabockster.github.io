@@ -67,12 +67,12 @@ body {
 .center-page .selfie {
   max-width: 100%;
   max-height: 325px;
-  margin-bottom: -2.5%;
   padding-left: .4em;
+  padding-bottom: 0.25em;
 }
 .center-page .social-icons {
   margin-bottom: 0.25em;
-  margin-top: -0.25em;
+  margin-top: 0.25em;
   font-size: 2.5em;
 }
 .center-page .social-icons i {
