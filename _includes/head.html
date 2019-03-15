@@ -1,5 +1,7 @@
 <head>
     <meta charset="utf-8">
+    <!-- Make MS Edge run faster -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
         {% if page.title %}
             {{ page.title }}
@@ -8,5 +10,10 @@
         {% endif %}
     </title>
     <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <!-- Set page width to full width of whatever screen is reading this -->
     <meta name="viewport" content="width=device-width">
+
+    <!-- Canoncial link - remove index.html from homepage URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
 </head>
