@@ -1,0 +1,12 @@
+/*
+    Custom site CSS written by Steven Bock found here.
+    Good luck understanding any of this.
+*/
+
+* {
+    background-color: #282828;
+}
+
+p, h1, h2, h3{
+    color: #FFFFFF;
+}
