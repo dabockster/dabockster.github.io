@@ -3,10 +3,12 @@
     Good luck understanding any of this.
 */
 
+/* Set sitewide background color */
 * {
     background-color: #282828;
 }
 
-p, h1, h2, h3{
+/* Set sitewide primary text color */
+p, h1, h2, h3, a, span, li {
     color: #FFFFFF;
 }
