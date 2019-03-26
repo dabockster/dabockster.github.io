@@ -2,7 +2,7 @@ This is the website code for Steven Bock.
 
 By continuing to read this code, you agree to hold Steven Bock completely responsible for the abomination that this code is.
 
-...Seriously. This code is garbage. He should have used 
+...Seriously, this code is garbage. I should have used 
 - ~~React~~
 - ~~Vue~~
 - ~~Squarespace~~
