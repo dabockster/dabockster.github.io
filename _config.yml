@@ -25,8 +25,12 @@ github_username:  dabockster
 # Build settings
 markdown: kramdown
 theme: minima
+highligher: rogue
 plugins:
   - jekyll-feed
+kramdown:
+  input: GFM
+  syntax_highlighter: rogue
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
