@@ -9,7 +9,7 @@
 }
 
 /* Set sitewide primary text color */
-p, h1, h2, h3, a, span, li, aside {
+p, h1, h2, h3, a, span, li, aside, footer {
     color: #FFFFFF;
 }
 
