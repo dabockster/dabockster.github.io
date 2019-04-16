@@ -28,9 +28,9 @@ header {
 }
 
 /* 
-==========================
+======================
     Helper Classes
-==========================
+======================
 */
 
 .left {
@@ -40,6 +40,25 @@ header {
 .right {
     float: right;
 }
+
+.center {
+    text-align: center;
+}
+
+/*
+============================
+    Page Specific Styles
+============================
+*/
+
+.homepage {
+    margin-top: 10rem;
+}
+
+.homepage h1 {
+    font-size: 4rem;
+}
+
 
 /* 
 ==========================
