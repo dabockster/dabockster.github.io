@@ -59,6 +59,16 @@ header {
     font-size: 4rem;
 }
 
+.homepage span a {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.homepage p {
+    margin-top: 5rem;
+}
 
 /* 
 ==========================
