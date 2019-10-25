@@ -45,6 +45,10 @@ header {
     text-align: center;
 }
 
+.flex {
+    display: flex;
+}
+
 /*
 ============================
     Page Specific Styles
@@ -59,7 +63,7 @@ header {
     font-size: 4rem;
 }
 
-.homepage span a {
+.homepage .flex a {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2rem;
