@@ -2,3 +2,21 @@
     Custom site CSS written by Steven Bock found here.
 */
 
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-container {
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+
+.right-container {
+    flex: 1;
+    background-color: white;
+}
