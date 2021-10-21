@@ -12,22 +12,39 @@ body {
     flex-direction: column;
 }
 
-.left-container {
+.top-container {
     flex: 1;
     background-color: black;
     color: white;
 }
 
-.left-container h1 {
-    text-align: justify;
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+}
 
-.right-container {
+#header h1 {
+    font-size: 700%;
+}
+
+.bottom-container {
     flex: 1;
     background-color: white;
 }
 
-@media only screen and (min-width: 500px) {
-    .flex-container{
-        flex-direction: column;
-    }
+#links {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 45rem;
+    font-size: 700%;
+    text-align: center;
+}
+
+#links a {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
 }
